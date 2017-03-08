@@ -6,7 +6,7 @@ module BankAccounts
     extend self
 
     def root_dir
-      spec = Gem::Specification.find_by_name("bankaccounts-mexico")
+      spec = Gem::Specification.find_by_name("bank_accounts-mexico")
       spec.gem_dir
     end
 

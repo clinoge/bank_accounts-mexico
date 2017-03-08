@@ -1,4 +1,4 @@
-# Bankaccounts::Mexico
+# BankAccounts::Mexico
 
 This is a gem providing a YAML formatted database and a simple API over it.
 
@@ -17,6 +17,20 @@ And then execute:
 Or install it yourself as:
 
     $ gem install bankaccounts-mexico
+
+## Usage
+
+### Get bank data
+
+``` ruby
+    banks = BankAccounts::Mexico.load_data
+```
+
+### Test whether an account number is valid according to CABLE
+
+``` ruby
+    BankAccounts::Mexico.valid_account_number?("032180000118359719")
+```
 
 ## Contributing
 
