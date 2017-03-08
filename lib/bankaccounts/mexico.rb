@@ -70,7 +70,7 @@ module BankAccounts
         end
       end
 
-      find_bank_by_account_number(account_number)
+      return false unless find_bank_by_account_number(account_number)
       checksum = 0
 
       account_number[0..16].chars.map(&:to_i).each_with_index do |number, i|
