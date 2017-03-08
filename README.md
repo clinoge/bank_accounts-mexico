@@ -7,7 +7,7 @@ This is a gem providing a YAML formatted database and a simple API over it.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'bankaccounts-mexico'
+gem 'bank_accounts-mexico'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install bankaccounts-mexico
+    $ gem install bank_accounts-mexico
 
 ## Usage
 
@@ -35,7 +35,7 @@ Or install it yourself as:
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/clinoge/bankaccounts-mexico.
+https://github.com/clinoge/bank_accounts-mexico.
 
 
 ## License

@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{A gem containing Mexican bank accounts data}
   spec.description   = %q{National bank codes of Mexico}
-  spec.homepage      = "https://github.com/clinoge/bankaccounts-mexico"
+  spec.homepage      = "https://github.com/clinoge/bank_accounts-mexico"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
