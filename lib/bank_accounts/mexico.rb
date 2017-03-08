@@ -1,4 +1,4 @@
-require "bankaccounts/mexico/version"
+require "bank_accounts/mexico/version"
 require 'yaml'
 
 module BankAccounts

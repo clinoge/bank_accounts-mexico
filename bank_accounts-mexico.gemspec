@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bankaccounts/mexico/version'
+require 'bank_accounts/mexico/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bankaccounts-mexico"
+  spec.name          = "bank_accounts-mexico"
   spec.version       = BankAccounts::Mexico::VERSION
   spec.authors       = ["Carlos Gottberg"]
   spec.email         = ["42linoge@gmail.com"]
